@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Open+Sans:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.container {
+    margin-top: 50px;
+    padding: 0px !important;
+    position: relative;
+
+    // @media screen and (max-width: 1200px) {
+        
+    // }
+    
+
+    @media screen and (max-width: 992px) {
+        margin-top: 20px;
+    }
+
+    @media screen and (max-width: 500px) {
+        margin-top: 5px;
+    }
+    
+}

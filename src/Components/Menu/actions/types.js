@@ -1,0 +1,1 @@
+export const MENU_INFORMATION = 'MENU_INFORMATION'

@@ -1,0 +1,2 @@
+export const SIDENAV_TOGGLE = 'SIDENAV_TOGGLE'
+export const HEADER_STATE = 'HEADER_STATE'

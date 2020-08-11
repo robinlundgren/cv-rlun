@@ -1,0 +1,18 @@
+.footer {
+    padding-top: 25px;
+    height: 60px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    transition: opacity 2s ease 3s;
+    
+    &__text {
+        font-size: 18px;
+        color: #e6e6e6
+    }
+
+    &__img {
+        margin-left: 7.5px;
+    }
+}

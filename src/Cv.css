@@ -1,0 +1,11 @@
+.container {
+    padding: 0 !important;
+    margin: 0 !important;
+    position: relative;
+  }
+
+  body {
+    padding: 0 !important;
+    background-color: rgb(18, 23, 28);
+    overflow-y: scroll;
+  }
