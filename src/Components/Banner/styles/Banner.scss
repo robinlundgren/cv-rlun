@@ -6,6 +6,7 @@
     display: block;
     margin: 0 auto;
     max-height: 450px;
+    min-width: 100%;
     overflow: hidden;
       @media screen and (max-width: 1050px) {
         background-image: url(../../../Assets/images/bg-mountainroad.jpg);
@@ -14,6 +15,11 @@
       }
       @media screen and (max-width: 625px) {
         min-height: 350px;
+      }
+      @media screen and (min-width: 1925px) {
+        background-image: url(../../../Assets/images/bg-mountainroad.jpg);
+        background-position: center;
+        background-position-y: -750px;
       }
 
     &__bg {
@@ -35,6 +41,9 @@
           @media screen and (max-width: 1050px) {
             opacity: 0;
         }
+        @media screen and (min-width: 1925px) {
+          opacity: 0;
+      }
     }
 }
 
