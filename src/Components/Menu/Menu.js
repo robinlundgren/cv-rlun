@@ -22,6 +22,9 @@ const Menu = props => {
 
     const toggleActive = (nav, index) => {
         props.manipulateMenuState(nav, index)
+        if(window.screen.width < 510) {
+            props.toggleSidenav('toggle')
+        }
     }
 
     const flexMenu = value => {
@@ -68,7 +71,7 @@ const Menu = props => {
                 {menu.navs.map((nav, index) => {
                     return (
                     <>
-                        <div onClick={() => toggleActive(nav, index)} className="menu__nav__section">
+                        <div  onClick={() => toggleActive(nav, index)} className="menu__nav__section">
                             <div className="menu__nav__section__inner">
                                 <img className="menu__nav__section__inner__img" src={nav.img} />
                             </div>

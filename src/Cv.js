@@ -28,30 +28,32 @@ const Cv = props => {
         <Menu />
         <Header />
         <Banner />
-        {active.key === 'sta' && 
-          <Start />
-        }
-        {active.key === 'com' &&
-          <Show /> 
-        }
-        {active.key === 'exp' && 
-          <Timeline 
-            key={key} 
-            props={props}
-            compKey={'exp'} 
-            value={timeline.wrkValues}
-            height={1595}
-          />
-        }
-        {active.key === 'edu' && 
-          <Timeline 
-            key={key} 
-            props={props}
-            compKey={'edu'}
-            value={timeline.ecnValues}
-            height={1300} 
-          />
-        }
+        <div className="content">
+          {active.key === 'sta' && 
+            <Start />
+          }
+          {active.key === 'com' &&
+            <Show /> 
+          }
+          {active.key === 'exp' && 
+            <Timeline 
+              key={key} 
+              props={props}
+              compKey={'exp'} 
+              value={timeline.wrkValues}
+              height={1595}
+            />
+          }
+          {active.key === 'edu' && 
+            <Timeline 
+              key={key} 
+              props={props}
+              compKey={'edu'}
+              value={timeline.ecnValues}
+              height={1300} 
+            />
+          }
+        </div>
       </div>
       <Footer key={key} />
     </>  

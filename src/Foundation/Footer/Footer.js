@@ -18,7 +18,7 @@ const Header = () => {
             <div ref={ref} className="footer" style={{opacity: `${elemOpacity}`}}>
                 <p className="footer__text">powered by
                     <span className="footer__img">
-                        <img src={react} />
+                        <img src={react} className="logo" />
                     </span>
                 </p>
             </div>
